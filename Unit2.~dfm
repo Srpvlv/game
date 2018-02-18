@@ -1,9 +1,9 @@
-object options: Toptions
-  Left = 415
-  Top = 115
+object Form2: TForm2
+  Left = 425
+  Top = 143
   Width = 331
   Height = 472
-  Caption = 'options'
+  Caption = 'Form2'
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText

@@ -7,7 +7,7 @@ uses
   Dialogs, StdCtrls;
 
 type
-  Toptions = class(TForm)
+  TForm2 = class(TForm)
     GroupBox1: TGroupBox;
     ImageDirectory: TEdit;
   private
@@ -17,7 +17,7 @@ type
   end;
 
 var
-  options: Toptions;
+  Form2: TForm2;
 
 implementation
 

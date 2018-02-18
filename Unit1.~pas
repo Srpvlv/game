@@ -57,7 +57,8 @@ begin
    if DrawArray[i][j]<>0
     then
       begin
-        WorkImage.Canvas.Draw(80*i,80*j, BufferBmp.Canvas);
+        BufferBmp.Canvas.CopyRect(Rect(0,0,80,80), BackImage.Canvas, Rect(80*i,80*j,80,80));
+        WorkImage.Canvas.CopyRect(Rect(80*i,80*j,80,80), BufferBmp.Canvas, Rect(0,0,80,80));
       end;
 
 end;
